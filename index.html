@@ -29,7 +29,7 @@
 
     <script>
         function updateChord(value) {
-        		const valueCleaned = value.replace(/[(),]/g, "");
+        		const valueCleaned = value.replace(/[(),\s]/g, "");
             const result = Tonal.Chord.get(valueCleaned);
             const resultWithOctave = Tonal.Chord.getChord(result.aliases[0], result.tonic+"4");
             if (result.notes.join(' ') != "") {
