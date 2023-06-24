@@ -3,3 +3,5 @@
 輸入和弦代號，我告訴你和弦組成音，還給你五線譜，就這樣，超不囉唆！
 
 試試看：[https://nicechord.com/chordfinder/](https://nicechord.com/chordfinder/)
+
+更多說明：[https://nicechord.com/post/simple-chordfinder/](https://nicechord.com/post/simple-chordfinder/)
